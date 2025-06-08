@@ -142,3 +142,86 @@ main {
   gap: 1rem;
   margin-top: 2rem;
 }
+
+.integrantes p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--cor-texto);
+  text-align: center;
+  background-color: var(--cor-fundo);
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 50%;
+  margin: 0 auto;
+  border-color: var(--cor-texto);
+  border-style: solid;
+  border-width: 3px;
+}
+
+.integrantes img {
+  display: block;
+  max-width: 50%;
+  max-height: 50%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 5, 10);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.cta {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-primaria);
+  padding: 2rem;
+  margin: 2rem auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+}
+
+.cta h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta .button {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta .button:hover {
+  background-color: #003f4e;
+  transform: scale(1.05);
+}
+
+
+main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--cor-texto);
+  text-align: center;
+  background-color: var(--cor-fundo);
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border-color: var(--cor-texto);
+  border-style: solid;
+  border-width: 3px;
+}
