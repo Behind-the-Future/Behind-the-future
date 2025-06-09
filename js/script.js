@@ -37,3 +37,13 @@ function validarFormulario() {
     erros.push("A mensagem deve conter pelo menos 10 caracteres.");
     document.getElementById('mensagem').style.borderColor = 'red';
   }
+
+
+  if (erros.length > 0) {
+    alert("Erros encontrados:\n\n" + erros.join("\n"));
+    return false;
+  }
+
+  alert("Mensagem enviada com sucesso!");
+  return true;
+}
