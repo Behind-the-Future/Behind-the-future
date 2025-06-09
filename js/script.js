@@ -12,10 +12,3 @@ function validarFormulario() {
   let erros = [];
 
   
-  if (!nome) {
-    erros.push("O campo Nome é obrigatório.");
-    document.getElementById('nome').style.borderColor = 'red';
-  } else if (nome.length < 3) {
-    erros.push("O nome deve conter pelo menos 3 caracteres.");
-    document.getElementById('nome').style.borderColor = 'red';
-  }
